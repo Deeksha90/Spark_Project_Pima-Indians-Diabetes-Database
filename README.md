@@ -9,8 +9,7 @@ The objective of this project is to analytically predict whether a patient has d
 # Data Source
 We acquired our dataset from Kaggle. This dataset is from the National Institute of Diabetes and Digestive and Kidney Diseases
 It’s a research study done by taking measures of various biological characteristics of women from a common community
-Consist of 9 variables
-![image](https://user-images.githubusercontent.com/92898544/146424874-89a6bb25-9c04-45e2-a832-841185c5b101.png)
+Consist of 9 variables:
 
 Pregnancies: Number of times pregnant
 
@@ -34,7 +33,8 @@ Outcome(Target variable): Class variable (0 or 1) 268 of 768 are 1, the others a
 We performed data cleaning and pre-processing. Also checked for missing values and necessary data type conversions if needed.
 
 # Data Modelling
-We applied two data model on outcome variable and other predictors. We compared the results we got with evaluation metrices and got the best performing model.
+We implemented data pipeline for performing data modelling and evaluation. As this is a classification problem, we used MLlib's Logistic Regression for modeling this problem. We also added three more models in the pipeline - Naive Bayes, Random Forest and GBT Classifier.
+
 # Transformation
 Created label from target variable
 Applied vector assembler to transform variables into features
@@ -53,13 +53,12 @@ From evaluation got best and worst performing model
 # Results
 
 Random forest classifier is the best performing model with 74.4% accuracy
-![image](https://user-images.githubusercontent.com/92898544/146425369-5b1a6ee4-a026-4a0a-bff6-a895b5a8d1b8.png)
-
+![image](https://user-images.githubusercontent.com/92898544/146425886-1a2a59fb-7a90-4066-897c-f25c7ea6b2a4.png)
 
 # Conclusion
+![image](https://user-images.githubusercontent.com/92898544/146425841-e3454c53-2e3e-4d4f-8f2d-c2a3a938fdc2.png)
 Glucose, BMI and Family History are important factors for predicting diabetes
-
 Blood Pressure and Insulin play moderate role
-![image](https://user-images.githubusercontent.com/92898544/146425416-fbd0ceff-87c4-4ca2-bebc-78fa3b82b634.png)
+
 
 
