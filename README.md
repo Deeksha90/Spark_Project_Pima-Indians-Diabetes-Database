@@ -58,7 +58,7 @@ Random forest classifier is the best performing model with 74.4% accuracy
 # Conclusion
 ![image](https://user-images.githubusercontent.com/92898544/146425841-e3454c53-2e3e-4d4f-8f2d-c2a3a938fdc2.png)
 
-Glucose, BMI and Family History are important factors for predicting diabetes
+Glucose, BMI and Family History are important factors for predicting diabetes. 
 Blood Pressure and Insulin play moderate role
 
 
